@@ -9,13 +9,22 @@ import UIKit
 
 class MakerViewController: UIViewController {
 
+    @IBOutlet weak var descriptionTextView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.descriptionTextView.text = """
+            Hello!
+            Made by JunSeobKim
+            https://github.com/JunSeobKim
+            """
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func touchUpInsideDismissButton(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
