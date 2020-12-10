@@ -155,7 +155,7 @@
         <!--Maker View Controller-->
         <scene sceneID="4AD-jW-Vn4">
             <objects>
-                <viewController id="ZAF-ig-ACC" customClass="MakerViewController" customModule="CompanionAnimals" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="ZAF-ig-ACC" customClass="MakerViewController" customModule="CompanionAnimals" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iDS-Wa-PqP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
